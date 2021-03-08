@@ -1,0 +1,70 @@
+body{
+  background-image:url(background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+/* sfondo nero trasparente */
+.corpo{
+  width: 850px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 70px;
+  border-radius: 15px;
+  background-color:rgba(0, 0, 0, 0.6);
+
+}
+.logo{
+  display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+#titolo{
+  color: lime;
+  text-align: center;
+  font-size: 25px;
+}
+.barra{
+  border: solid;
+  border-width: 5px;
+  border-color: lime;
+  background-color: lime;
+  text-align: center;
+}
+/* monopattini e barre di carica */
+.row{
+  margin-top: 20px;
+}
+.testo{
+  color: white;
+  font-size: 20px;
+}
+.testomin{
+  color: lightgray;
+  font-size: 15px;
+}
+.barraorange{
+  border: solid;
+  width: 150px;
+  border-color: orange;
+  border-width: 13px;
+  background-color: orange;
+  border-radius: 5px;
+}
+.barragreen{
+  border: solid;
+  width: 300px;
+  border-color: green;
+  border-width: 13px;
+  background-color: green;
+  border-radius: 5px;
+}
+.barrared{
+  border: solid;
+  width: 70px;
+  border-color: red;
+  border-width: 13px;
+  background-color: red;
+  border-radius: 5px;
+}
